@@ -1,8 +1,8 @@
 import React from 'react'
 import { LinkStyled } from './styled/LinkStyled'
 
-export default function Button() {
+export default function Button({id, url, linkName}) {
   return (
-    <LinkStyled href='https://training.zuri.team/'>Zuri Team</LinkStyled>
+    <LinkStyled id={id} href={url}>{linkName}</LinkStyled>
   )
 }
