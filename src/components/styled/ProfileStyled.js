@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ProfileStyled = styled.div`
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 position: relative;
 display: flex;
 width: 100%;
@@ -8,7 +9,7 @@ margin-top: 54px;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: red;
+
 
 .img{
     width: 88px;
@@ -22,5 +23,9 @@ background-color: red;
 }
 #twitter{
     margin-top: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
 }
 `
