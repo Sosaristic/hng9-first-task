@@ -6,8 +6,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Container display="flex" direction="column" >
-      <Container display = "flex">
+    <Container display="flex" direction="column"  >
+      <Container display = "flex" padding="4px 20px">
         <Profile />
       </Container>
 <SocialSection />
