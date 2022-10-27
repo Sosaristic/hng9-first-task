@@ -4,10 +4,13 @@ import Profile from "./components/Profile";
 import SocialSection from "./components/SocialSection";
 import Footer from "./components/Footer";
 import Button from "./components/Button";
+import GlobalStyles from "./components/styled/Global";
 
 function App() {
   return (
     <Container display="flex" direction="column"  >
+          <GlobalStyles />
+
       <Container display = "flex" direction="column" padding="4px 144px">
         <Profile />
         <Button />
@@ -15,7 +18,7 @@ function App() {
         <Button />
         <Button />
         <Button />
-        
+
       </Container>
 <SocialSection />
 <Footer />
