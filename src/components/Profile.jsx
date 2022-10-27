@@ -4,7 +4,8 @@ import ProfilePhoto from './images/profile.png'
 export default function Profile() {
   return (
     <ProfileStyled>
-        <div className="img"><img src={ProfilePhoto} alt="profile img"/></div>
+        <div className="img"><img id='profile_img' src={ProfilePhoto} alt="profile img"/></div>
+        <div id="twitter">Omena Sunday</div>
     </ProfileStyled>
   )
 }
