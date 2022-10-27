@@ -25,6 +25,7 @@ justify-content: center;
     margin-top: 24px;
     line-height: 30px;
     font-weight: 700;
+    margin-bottom: 12px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
 }
