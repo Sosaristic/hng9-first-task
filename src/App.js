@@ -8,22 +8,38 @@ import GlobalStyles from "./components/styled/Global";
 
 function App() {
   return (
-    <Container display="flex" direction="column"  alignItems="center">
-          <GlobalStyles />
+    <Container display="flex" direction="column" alignItems="center">
+      <GlobalStyles />
 
-    
-        <Profile />
-        <Button id="btn_Zuri" url="https://training.zuri.team/" linkName="Zuri Team"/>
-        <Button id="books" url="http://books.zuri.team" linkName={"Tech Books"}/>
-        <Button id="book_python" url="http://books.zuri.team/python-for-beginners" linkName={"Python books"}/>
-        <Button id="pitch" url="http://backgroundcheck.zuri.team" linkName={"background check on coders"}/>
-        <Button id="book_design" url="https://books.zuri.team/design-rules" linkName={"Design cook book for UI/UX designers"}/>
+      <Profile />
+      <Button
+        id="btn_Zuri"
+        url="https://training.zuri.team/"
+        linkName="Zuri Team"
+      />
+      <Button
+        id="books"
+        url="http://books.zuri.team"
+        linkName={"Tech Books: Books for coding and design"}
+      />
+      <Button
+        id="book_python"
+        url="http://books.zuri.team/python-for-beginners?ref_id=sundayomena9"
+        linkName={"Python book for beginners"}
+      />
+      <Button
+        id="pitch"
+        url="http://backgroundcheck.zuri.team"
+        linkName={"Run background check on your codes"}
+      />
+      <Button
+        id="book_design"
+        url="https://books.zuri.team/design-rules"
+        linkName={"Design rule cookbook fingertips"}
+      />
 
-
-
-      
-<SocialSection />
-<Footer />
+      <SocialSection />
+      <Footer />
     </Container>
   );
 }

@@ -98,4 +98,8 @@ export const ProfileStyled = styled.div`
     font-size: 20px;
     font-family: "Inter", sans-serif;
   }
+
+  #slack{
+    display: none;
+  }
 `;

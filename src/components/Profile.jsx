@@ -14,6 +14,7 @@ export default function Profile() {
 
         <div className="img" id='profile_img'></div>
         <div id="twitter">Omena Sunday</div>
+        <div id="slack">sundayomena9</div>
     </ProfileStyled>
   )
 }
