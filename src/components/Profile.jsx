@@ -6,10 +6,13 @@ import ProfilePhoto from './images/profile.png'
 export default function Profile() {
   return (
     <ProfileStyled>
-      <div className="shareicon share"><RiShareForwardLine color='#9ea8b8' size={24}/></div>
-      <div className="shareicon ellipse"><FaEllipsisH color='#9ea8b8' size={24}/></div>
+      <div className="shareicon share"><RiShareForwardLine color='#9ea8b8' size={24}/>
+      <div className="tooltip">share link</div></div>
+      <div className="shareicon ellipse"><FaEllipsisH color='#9ea8b8' size={24}/>
+      
+      </div>
 
-        <div className="img"></div>
+        <div className="img" id='profile_img'></div>
         <div id="twitter">Omena Sunday</div>
     </ProfileStyled>
   )
