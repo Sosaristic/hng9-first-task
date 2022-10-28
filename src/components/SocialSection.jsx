@@ -8,6 +8,7 @@ export default function SocialSection() {
   return (
 <SocialStyled>      
       <div><img src={slackLogo} alt="" /></div>
+      <div><img src={slackLogo} alt="" /></div>
       
       </SocialStyled>
   )

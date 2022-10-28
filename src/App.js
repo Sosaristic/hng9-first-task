@@ -8,10 +8,10 @@ import GlobalStyles from "./components/styled/Global";
 
 function App() {
   return (
-    <Container display="flex" direction="column"  >
+    <Container display="flex" direction="column"  alignItems="center">
           <GlobalStyles />
 
-      <Container display = "flex" direction="column" padding="4px 144px">
+    
         <Profile />
         <Button id="btn_Zuri" url="https://training.zuri.team/" linkName="Zuri Team"/>
         <Button id="books" url="http://books.zuri.team" linkName={"Tech Books"}/>
@@ -21,7 +21,7 @@ function App() {
 
 
 
-      </Container>
+      
 <SocialSection />
 <Footer />
     </Container>
