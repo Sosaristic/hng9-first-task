@@ -2,7 +2,6 @@ import React from 'react'
 import {RiShareForwardLine} from "react-icons/ri"
 import {FaEllipsisH} from "react-icons/fa"
 import { ProfileStyled } from './styled/ProfileStyled'
-import ProfilePhoto from './images/profile.png'
 export default function Profile() {
   return (
     <ProfileStyled>
