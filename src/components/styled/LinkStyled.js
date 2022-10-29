@@ -12,6 +12,7 @@ height: 76px;
 width: 90%;
 font-family: 'Inter', sans-serif;
 font-weight: 500;
+padding: 4px;
 color: #101828;
 font-size: 18px;
 margin-top: 24px;
