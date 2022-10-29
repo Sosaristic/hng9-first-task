@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container } from './styled/Container'
 import slackLogo from "./images/slack.png"
 import githublogo from "./images/github-logo.png"
 import { SocialStyled } from './styled/SocialStyled'
