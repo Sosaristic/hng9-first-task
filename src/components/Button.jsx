@@ -1,8 +1,10 @@
-import React from 'react'
-import { LinkStyled } from './styled/LinkStyled'
+import React from "react";
+import { LinkStyled } from "./styled/LinkStyled";
 
-export default function Button({id, url, linkName}) {
+export default function Button({ id, url, linkName, title }) {
   return (
-    <LinkStyled id={id} href={url}>{linkName}</LinkStyled>
-  )
+    <LinkStyled id={id} href={url} title={title}>
+      {linkName}
+    </LinkStyled>
+  );
 }
