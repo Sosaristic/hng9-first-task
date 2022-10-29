@@ -12,6 +12,12 @@ function App() {
       <GlobalStyles />
 
       <Profile />
+
+      <Button
+        id="my_twitter"
+        url="https://twitter.com/omena_sunday?t=jG-1e9AsV1vE3GriQoQ&s=09"
+        linkName="Twitter"
+      />
       <Button
         id="btn_Zuri"
         url="https://training.zuri.team/"
