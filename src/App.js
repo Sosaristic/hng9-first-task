@@ -26,7 +26,8 @@ function App() {
       <Button
         id="books"
         url="http://books.zuri.team"
-        linkName={"Tech Books: Books for coding and design"}
+        linkName={"Books for coding and design"}
+        title="Books for coding and design"
       />
       <Button
         id="book_python"
@@ -36,12 +37,12 @@ function App() {
       <Button
         id="pitch"
         url="http://backgroundcheck.zuri.team"
-        linkName={"Run background check on your codes"}
+        linkName={"Background check or Coders"}
       />
       <Button
         id="book_design"
         url="https://books.zuri.team/design-rules"
-        linkName={"Design rule cookbook fingertips"}
+        linkName={"Design Books"}
       />
 
       <SocialSection />
