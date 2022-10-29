@@ -37,7 +37,7 @@ function App() {
       <Button
         id="pitch"
         url="http://backgroundcheck.zuri.team"
-        linkName={"Background check or Coders"}
+        linkName={"Background check for Coders"}
       />
       <Button
         id="book_design"
