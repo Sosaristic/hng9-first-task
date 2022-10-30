@@ -46,6 +46,7 @@ function App() {
       />
 
       <SocialSection />
+      
       <Footer />
     </Container>
   );

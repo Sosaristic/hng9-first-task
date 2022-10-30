@@ -6,9 +6,13 @@ import { FooterStyled } from './styled/FooterStyled'
 export default function Footer() {
   return (
     <FooterStyled>
+      <hr />
+      <div className="logos">
       <div className='title'>Zuri<span></span>Internship</div>
       <div className='text'>HNG Internship 9 Frontend Task</div>
       <div><img src={logo2} alt="" /></div>
+      </div>
+      
     </FooterStyled>
   )
 }
