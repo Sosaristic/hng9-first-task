@@ -34,7 +34,7 @@ export const ProfileStyled = styled.div`
   .share {
     display: none;
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -86,7 +86,7 @@ export const ProfileStyled = styled.div`
     right: 6%;
     top: 1rem;
 
-    @media (min-width: 992px) {
+    @media (min-width: 768px) {
       display: none;
     }
   }
