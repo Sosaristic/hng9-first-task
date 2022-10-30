@@ -28,7 +28,7 @@ div{
     margin-top: 1.5rem;
 }
 
-@media (min-width: 992px){
+@media (min-width: 768px){
     flex-direction: row;
     justify-content: space-around;
 }
