@@ -22,7 +22,10 @@ border-radius: 8px;
 border: 1px solid #EAECF0;
 cursor: default;
 &:hover{
-    background-color: #D0D5DD; 
+    background: #D0D5DD;
+border: 1px solid #D0D5DD;
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
 }
 
 @media(min-width: 992px){
