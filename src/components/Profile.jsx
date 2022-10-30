@@ -12,8 +12,8 @@ export default function Profile() {
       </div>
 
         <div className="img" id='profile_img'></div>
-        <div id="twitter">Omena Sunday</div>
-        <div id="slack">sundayomena9</div>
+        <div id="twitter">omena_sunday</div>
+        <div id="slack">sosaristic</div>
     </ProfileStyled>
   )
 }
