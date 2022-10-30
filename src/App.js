@@ -16,7 +16,7 @@ function App() {
       <Button
         id="my_twitter"
         url="https://twitter.com/omena_sunday?t=jG-1e9AsV1vE3GriQoQ&s=09"
-        linkName="Twitter"
+        linkName="Twitter Link"
       />
       <Button
         id="btn_Zuri"
@@ -26,18 +26,18 @@ function App() {
       <Button
         id="books"
         url="http://books.zuri.team"
-        linkName={"Books for coding and design"}
+        linkName={"Zuri Books"}
         title="Books for coding and design"
       />
       <Button
         id="book_python"
         url="http://books.zuri.team/python-for-beginners?ref_id=sundayomena9"
-        linkName={"Python book for beginners"}
+        linkName={"Python books"}
       />
       <Button
         id="pitch"
         url="http://backgroundcheck.zuri.team"
-        linkName={"Having bugs? lets run a background check on your codes"}
+        linkName={"Background Check for Coders"}
       />
       <Button
         id="book_design"
